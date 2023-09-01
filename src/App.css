@@ -1,0 +1,59 @@
+* {
+    background-color: rgb(84, 85, 82);
+}
+
+.header {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.container {
+    margin: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px #0000005d;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 0 !important;
+}
+
+.header::after {
+    content: '';
+    display: block;
+    width: 15%;
+    height: 2px;
+    background-color: rgba(209, 209, 209, 0.393);
+    margin-top: 5px !important;
+    margin: 0px auto;
+}
+
+.underline {
+    content: '';
+    display: block;
+    width: 5%;
+    height: 2px;
+    background-color: rgba(209, 209, 209, 0.393);
+    margin: 4px auto;
+}
+
+input, select {
+    background-color:  rgba(209, 209, 209, 0.124) !important;
+}
+
+input::placeholder, select {
+    color: rgba(255, 255, 255, 0.396) !important;
+}
+
+label {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+td {
+    color: white;
+}

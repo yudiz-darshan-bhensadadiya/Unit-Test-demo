@@ -1,0 +1,41 @@
+.error {
+    color: red;
+    font-size: 11px;
+    font-weight: 600;
+    padding-left: 0px;
+    position: relative;
+    top: -5px;
+}
+
+input, select {
+    padding-bottom: 0px !important;
+}
+
+p {
+    margin: 0 !important;
+}
+
+select {
+    margin-top: 0px !important;
+}
+
+input::placeholder, select::placeholder {
+    font-size: 13px !important;
+    position: relative;
+    top: -5px;
+    color: rgba(146, 146, 146, 0.849) !important;
+}
+
+.form-select {
+    font-size: 13px !important;
+    padding: 6px !important;
+    margin-top: 5px !important;
+    position: relative;
+    top: -5px;
+    color: rgba(146, 146, 146, 0.849) !important;
+}
+
+.label {
+    padding-left: 0px;
+    font-size: 12px;
+}

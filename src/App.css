@@ -1,8 +1,10 @@
-* {
-    background-color: rgb(84, 85, 82);
+.header {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
 }
 
-.header {
+.header2 {
     text-align: center;
     font-size: 18px;
     font-weight: 600;
@@ -32,6 +34,16 @@ h1 {
     margin: 0px auto;
 }
 
+.header2::after {
+    content: '';
+    display: block;
+    width: 20%;
+    height: 2px;
+    background-color: rgba(209, 209, 209, 0.393);
+    margin-top: 5px !important;
+    margin: 0px auto;
+}
+
 .underline {
     content: '';
     display: block;
@@ -41,19 +53,16 @@ h1 {
     margin: 4px auto;
 }
 
-input, select {
-    background-color:  rgba(209, 209, 209, 0.124) !important;
-}
-
-input::placeholder, select {
-    color: rgba(255, 255, 255, 0.396) !important;
+.underline2 {
+    content: '';
+    display: block;
+    width: 10%;
+    height: 2px;
+    background-color: rgba(209, 209, 209, 0.393);
+    margin: 4px auto;
 }
 
 label {
     font-size: 13px;
     font-weight: 600;
-}
-
-td {
-    color: white;
 }

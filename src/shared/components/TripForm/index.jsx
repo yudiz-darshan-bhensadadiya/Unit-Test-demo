@@ -273,6 +273,7 @@ function TripForm () {
         <div className='row mt-2'>
           <div className='col'>
             <button className='btn btn-success' type='submit'>Save</button>
+            <button className='btn btn-primary' type='reset' style={{ marginLeft: '10px' }} onClick={() => reset()}>Reset</button>
           </div>
         </div>
       </form><hr className='mb-0' />

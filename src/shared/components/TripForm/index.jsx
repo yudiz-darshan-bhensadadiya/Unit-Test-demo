@@ -7,7 +7,15 @@ import { DataGrid } from '@mui/x-data-grid'
 function TripForm () {
   const { control, formState: { errors }, handleSubmit, setError, clearErrors, reset } = useForm()
 
-  const [tableData, setTableData] = useState([])
+  const [tableData, setTableData] = useState([{fName: 'sahil',
+  lName: 'kikani',
+  nEmployeeId: '1950',
+  sEmailId: 'sahilkikani111@gmail.com',
+  nContact: '9328699837',
+  eDepartment: 'mean',
+  id: 1,
+  isComing: 'yes'}])
+
   const [searchedData, setSearchedData] = useState([])
   const [search, setSearch] = useState('')
 
